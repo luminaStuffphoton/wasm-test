@@ -11,9 +11,9 @@
 
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
     
-<script type="module" nonce="6/T2/v3P909ZcAoqhcetzw==">
-import init, * as bindings from '/eframe_template.js';
-const wasm = await init('/eframe_template_bg.wasm');
+<script type="module" nonce="1M/ucdjQMNgRhrGxW9HTvw==">
+import init, * as bindings from 'https://luminastuffphoton.github.io/wasm-test/eframe_template.js';
+const wasm = await init('https://luminastuffphoton.github.io/wasm-test/eframe_template_bg.wasm');
 
 
 window.wasmBindings = bindings;
@@ -23,9 +23,9 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
     <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
-    <base href="/" />
+    <base href="https://luminastuffphoton.github.io/wasm-test/" />
 
-    <link rel="icon" href="/favicon.ico" integrity="sha384&#x2D;jNOAE6jgE03LznIulCTVP6BH4NrTuROFjP9wj8bV1UUMJKtZAvstFpIAP3PDcFpx"/>
+    <link rel="icon" href="https://luminastuffphoton.github.io/wasm-test/favicon.ico" integrity="sha384&#x2D;jNOAE6jgE03LznIulCTVP6BH4NrTuROFjP9wj8bV1UUMJKtZAvstFpIAP3PDcFpx"/>
 
 
     
@@ -127,7 +127,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             }
         }
     </style>
-<link rel="modulepreload" href="/eframe_template.js" crossorigin=anonymous integrity="sha384-k8hYmlq9c66LaxHQs53nBpmyxUNzgStetz5IUDnAY6K/ji/gS0c6SrPNG8UVuT11"><link rel="preload" href="/eframe_template_bg.wasm" crossorigin=anonymous integrity="sha384-BK/jxuDtBLbztVZXe5qZnuBhTXOrjJZQuIzkpd+ZDvXMOhx8hh3oJITT1MMwKZMH" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="https://luminastuffphoton.github.io/wasm-test/eframe_template.js" crossorigin=anonymous integrity="sha384-k8hYmlq9c66LaxHQs53nBpmyxUNzgStetz5IUDnAY6K/ji/gS0c6SrPNG8UVuT11"><link rel="preload" href="https://luminastuffphoton.github.io/wasm-test/eframe_template_bg.wasm" crossorigin=anonymous integrity="sha384-BK/jxuDtBLbztVZXe5qZnuBhTXOrjJZQuIzkpd+ZDvXMOhx8hh3oJITT1MMwKZMH" as="fetch" type="application/wasm"></head>
 
 <body>
     <!-- The WASM code will resize the canvas dynamically -->
