@@ -7,13 +7,13 @@
 
 <head>
     <!-- change this to your project name -->
-    <title>egui_test</title>
+    <title>eframe template</title>
 
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
     
-<script type="module" nonce="rI8m2C1GFD0VOEx79JPoxQ==">
-import init, * as bindings from '/egui_test.js';
-const wasm = await init('/egui_test_bg.wasm');
+<script type="module" nonce="6/T2/v3P909ZcAoqhcetzw==">
+import init, * as bindings from '/eframe_template.js';
+const wasm = await init('/eframe_template_bg.wasm');
 
 
 window.wasmBindings = bindings;
@@ -127,7 +127,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
             }
         }
     </style>
-<link rel="modulepreload" href="/egui_test.js" crossorigin=anonymous integrity="sha384-3Rz08/REdBIlD5sHToUl5hoGROkLrqz+ZVVs1H707wJ1c1ucRQmNBqEeVhNnn3rJ"><link rel="preload" href="/egui_test_bg.wasm" crossorigin=anonymous integrity="sha384-2YkvBiUAeBuBS3Cw6s9l5ZKeVXvhXmTfEoye3OgsK5QD1DkbMTcN7dgJUkHPn3C7" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/eframe_template.js" crossorigin=anonymous integrity="sha384-k8hYmlq9c66LaxHQs53nBpmyxUNzgStetz5IUDnAY6K/ji/gS0c6SrPNG8UVuT11"><link rel="preload" href="/eframe_template_bg.wasm" crossorigin=anonymous integrity="sha384-BK/jxuDtBLbztVZXe5qZnuBhTXOrjJZQuIzkpd+ZDvXMOhx8hh3oJITT1MMwKZMH" as="fetch" type="application/wasm"></head>
 
 <body>
     <!-- The WASM code will resize the canvas dynamically -->
